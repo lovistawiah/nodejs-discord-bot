@@ -61,9 +61,9 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-// client.on('messageReactionAdd',(reaction,user)=>{
+client.on('messageReactionAdd', (reaction, user) => {
 
-// })
+})
 
 client.login(process.env.DISCORD_BOT);
 
